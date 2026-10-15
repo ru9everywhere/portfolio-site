@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tasuki Tamura</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <a href="#top">Tasuki Tamura</a>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#works">Works</a>
+                <button id="theme-toggle">ダークモード</button>
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <div class="hero">
+                    <img src="./media/top.jpg" width="80%">
+                    <h1>
+                        Tasuki Tamura<br>
+                        Portfolio
+                    </h1>
+                </div>
+                <p id="weather-icon"> </p>
+                <p id="weather-temp"></p>
+            </section>
+            <section id="about">
+                <h3>About</h3>
+                <p>
+                    田村 樹<br>
+                    東京都市大学
+                </p>
+                <p>
+                    研究テーマ：バーチャル物体通過感<br>
+                    関心：VR、触覚、体験設計
+                </p>
+            </section>
+            <section id="works" class="works">
+                <h3>Works</h3>
+                <div class="works-controls">
+                    <select id="category">
+                        <option value="all">すべてのカテゴリ</option>
+                    </select>
+                    <select id="sort">
+                        <option value="new">新しい順</option>
+                        <option value="old">古い順</option>
+                        <option value="title">タイトル順</option>
+                    </select>
+                </div>
+                <div id="works-grid"></div>
+            </section>
+        </main>
+        <footer>
+            <span>© 2026 Tasuki Tamura</span>
+        </footer>
+        <script src="works.js"></script>
+    </body>
+</html>

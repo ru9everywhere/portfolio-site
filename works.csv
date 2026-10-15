@@ -1,0 +1,4 @@
+title,description,image,link,category,year
+振動提示プロトタイプ,VR空間で手が壁を通り抜ける感覚を再現するため、右手の手のひらと手の甲に付けた2つの振動子を手の位置に合わせてArduinoで制御する装置を作成,./media/hero.png,#,触覚デバイス,2026
+M5StickCを用いた運転シミュレーター,M5StickCの傾きでUnity上の車をハンドル操作し、急な操作を減点する教習所シミュレーターを作成,./media/work-driving.png,#,ゲーム,2026
+WebClass課題通知ツール,WebClassの課題を1時間ごとに自動チェックし、期限の前日・当日にMacへ通知するツール。課題一覧を確認できる画面も作成した。,./media/work-webclass.png,#,プログラミング,2026
